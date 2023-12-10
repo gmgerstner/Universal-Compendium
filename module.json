@@ -1,0 +1,47 @@
+{
+  "id": "universal-compendium",
+  "title": "Universal Compendium",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "packs": [
+    {
+      "label": "Scenes",
+      "name": "scenes",
+      "type": "Scene",
+      "system": "dnd5e",
+      "path": "packs/scenes"
+    },
+    {
+      "label": "Actors",
+      "name": "actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "path": "packs/actors"
+    },
+    {
+      "label": "Items",
+      "name": "items",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "packs/items"
+    },
+    {
+      "label": "Journals",
+      "name": "journals",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "path": "packs/journals"
+    },
+    {
+      "label": "Tables",
+      "name": "tables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "path": "packs/tables"
+    }
+  ],
+  "description": "Major collection of D&amp;D 5e assets."
+}
