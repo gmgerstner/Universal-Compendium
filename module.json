@@ -43,5 +43,8 @@
       "path": "packs/tables"
     }
   ],
-  "description": "Major collection of D&amp;D 5e assets."
+  "description": "Major collection of D&amp;D 5e assets.",
+  "url": "https://github.com/gmgerstner/Universal-Compendium",
+  "manifest": "https://raw.githubusercontent.com/gmgerstner/Universal-Compendium/master/module.json",
+  "download": "https://github.com/gmgerstner/Universal-Compendium/releases/latest/download/module.zip"
 }
