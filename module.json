@@ -1,46 +1,75 @@
 {
   "id": "universal-compendium",
   "title": "Universal Compendium",
-  "version": "1.0.2",
+  "version": "1.5.0",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
   },
   "packs": [
     {
-      "label": "Scenes",
       "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
       "type": "Scene",
       "system": "dnd5e",
-      "path": "packs/scenes"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Actors",
-      "name": "actors",
+      "name": "creatures",
+      "label": "Creatures",
+      "path": "packs/creatures",
       "type": "Actor",
       "system": "dnd5e",
-      "path": "packs/actors"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Items",
       "name": "items",
+      "label": "Items",
+      "path": "packs/items",
       "type": "Item",
       "system": "dnd5e",
-      "path": "packs/items"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Journals",
-      "name": "journals",
-      "type": "JournalEntry",
-      "system": "dnd5e",
-      "path": "packs/journals"
-    },
-    {
-      "label": "Tables",
-      "name": "tables",
+      "name": "rollable-tables",
+      "label": "Rollable Tables",
+      "path": "packs/rollable-tables",
       "type": "RollTable",
       "system": "dnd5e",
-      "path": "packs/tables"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journals",
+      "label": "Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "description": "Major collection of D&amp;D 5e assets.",
