@@ -1,5 +1,3 @@
-2024/09/02-10:01:12.990 2af0 Delete type=3 #1
-2024/09/02-10:03:35.360 45c0 Level-0 table #5: started
-2024/09/02-10:03:35.378 45c0 Level-0 table #5: 1556246 bytes OK
-2024/09/02-10:03:35.380 45c0 Delete type=0 #3
-2024/09/02-10:03:35.381 45c0 Manual compaction at level-0 from '!folders!Sv4cxyXWXwyfNcaS' @ 72057594037927935 : 1 .. '!journal.pages!ynmrjlEJFYm5nscJ.0000000000000015' @ 0 : 0; will stop at (end)
+2024/09/02-10:19:29.638 8f94 Recovering log #4
+2024/09/02-10:19:29.643 8f94 Delete type=0 #4
+2024/09/02-10:19:29.643 8f94 Delete type=3 #2

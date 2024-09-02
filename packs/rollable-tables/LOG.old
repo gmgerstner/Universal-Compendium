@@ -1,8 +1,3 @@
-2024/09/02-10:01:12.953 4ca8 Recovering log #8
-2024/09/02-10:01:12.959 4ca8 Delete type=0 #8
-2024/09/02-10:01:12.959 4ca8 Delete type=3 #6
-2024/09/02-10:03:35.357 45c0 Level-0 table #13: started
-2024/09/02-10:03:35.358 45c0 Level-0 table #13: 0 bytes OK
-2024/09/02-10:03:35.360 45c0 Delete type=0 #11
-2024/09/02-10:03:35.381 45c0 Manual compaction at level-0 from '!tables!03AN6kgVr8n3a2dp' @ 72057594037927935 : 1 .. '!tables.results!zqtwfbmklydJ23gM.v6HqGhAk4b5FXDg8' @ 0 : 0; will stop at (end)
-2024/09/02-10:03:35.381 45c0 Manual compaction at level-1 from '!tables!03AN6kgVr8n3a2dp' @ 72057594037927935 : 1 .. '!tables.results!zqtwfbmklydJ23gM.v6HqGhAk4b5FXDg8' @ 0 : 0; will stop at (end)
+2024/09/02-10:19:29.609 8f94 Recovering log #12
+2024/09/02-10:19:29.615 8f94 Delete type=0 #12
+2024/09/02-10:19:29.615 8f94 Delete type=3 #10
